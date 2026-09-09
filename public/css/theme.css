@@ -860,7 +860,9 @@ figure > img, figure > pre, figure > div.sourceCode, figure:not(.wide) > div.sou
 }
 
 img {
-  width: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
